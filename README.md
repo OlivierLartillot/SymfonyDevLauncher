@@ -1,10 +1,13 @@
 # SymfonyDevLauncher
 
+<div>
+ ![Image](https://github.com/user-attachments/assets/4d270428-8de3-4738-88d1-2423c6a2289e)   ![Image](https://github.com/user-attachments/assets/e3930928-697e-4b52-b2a8-bec2a1f68e31)
+</div>
 ![Image](https://github.com/user-attachments/assets/0e32bdda-91b2-4fb9-865e-f8c18a496a0b)
 
-![Image](https://github.com/user-attachments/assets/e3930928-697e-4b52-b2a8-bec2a1f68e31)
 
-![Image](https://github.com/user-attachments/assets/4d270428-8de3-4738-88d1-2423c6a2289e)
+
+
 
 Un script batch simple et efficace pour lancer rapidement tes projets Symfony sous Windows, un raccourci sur le bureau pour lancer tous les outils basiques de Symfony:
 - VsCode
