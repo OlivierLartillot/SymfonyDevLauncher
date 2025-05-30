@@ -1,13 +1,32 @@
 # SymfonyDevLauncher
 
-Un script batch simple et efficace pour lancer rapidement tes projets Symfony sous Windows, un raccourci sur le bureau pour lancer tous les outils basiques de Symfony:
-- VsCode
-- WampServer
-- le serveur de développement (symfony server:start)
-- chrome avec deux onglets
-    - localhost:8000
-    - localhost/phpmyadmin/
-    
+Un script batch simple et efficace pour lancer rapidement tes projets Symfony sous Windows, un raccourci sur le bureau pour lancer tous les outils basiques de Symfony.
+
+Tous les jours quand je veux reprendre un projet Symfony:
+1. je me rends dans mon dossier de travail du projet
+2. je clic droit pour ouvrir une CMD et y taper code . pour ouvrir vsCode
+3. j'entre la commande (symfony server:start)
+4. j'ouvre WampServer64
+5. j'ouvre mon google chrome et je clic sur mon raccourci Localhost:8000
+6. j'ouvre un nouvel onglet avec mon raccourci vers mes données (phpMyAdmin)
+
+Bon j'avoue ce n'est pas bien long, mais qu'est ce que c'est chi*****. Mais ça, c'était avant !!!
+
+Maintenant, je fais plutot ça:
+
+1. je clic sur le raccourci: 
+
+![Image](https://github.com/user-attachments/assets/4d270428-8de3-4738-88d1-2423c6a2289e)   
+
+2. je réponds à la question: 
+
+![Image](https://github.com/user-attachments/assets/e3930928-697e-4b52-b2a8-bec2a1f68e31)
+
+3. j'attends une 10aine de secondes:
+
+![Image](https://github.com/user-attachments/assets/5163d3b0-5201-47d6-91e9-e25ab67f983b)
+
+...et encore c'est parceque je voulais styliser le bordel !!! les 3 premières secondes... c'est juste pour ça 😂😂😂 (et m'amuser aussi un peu j'avoue).
 
 ## Description
 
@@ -19,7 +38,7 @@ Il te permet de :
     - Relancer automatiquement le dernier projet utilisé 
 - Une fois le projet selectionné le script fait le reste:
     - Ouvrir le dossier projet dans VS Code  
-    - Démarrer le serveur de dev Symfony dans une console dédiée  
+    - Démarrer le serveur de dev Symfony dans une console dédiée (symfony server:start)  
     - Lancer WampServer 
     - Ouvrir Chrome avec les bons onglets:
         - localhost 
