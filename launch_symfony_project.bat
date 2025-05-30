@@ -84,7 +84,7 @@ rem ouvre une nouvelle CMD pour ouvrir code de facon invisible ouvre cmd puis cl
 echo 🛠️  Ouverture du dossier dans VS Code..
 start "" cmd /c "code ."
 
-:: Dossier VS Code (sans console parasite)
+rem Dossier VS Code (sans console parasite)
 echo 🛠️  Ouverture du dossier dans VS Code...
 echo 🔄 Lancement du serveur Symfony...
 start "Symfony server" cmd /k "symfony server:start"
@@ -95,6 +95,8 @@ start "" "C:\wamp64\wampmanager.exe"
 echo 🌐 Ouverture de Chrome avec les deux onglets...
 timeout /t 2 > nul
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" "https://localhost:8000/" "http://localhost/phpmyadmin/"
+:: edge: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
 
 echo 🌟 Projet lancé avec succès ! Cette boîte se fermera automatiquement.
 timeout /t 15 > nul
