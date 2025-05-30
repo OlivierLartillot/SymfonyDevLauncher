@@ -84,8 +84,6 @@ rem ouvre une nouvelle CMD pour ouvrir code de facon invisible ouvre cmd puis cl
 echo 🛠️  Ouverture du dossier dans VS Code..
 start "" cmd /c "code ."
 
-rem Dossier VS Code (sans console parasite)
-echo 🛠️  Ouverture du dossier dans VS Code...
 echo 🔄 Lancement du serveur Symfony...
 start "Symfony server" cmd /k "symfony server:start"
 
