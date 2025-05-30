@@ -38,19 +38,21 @@ Il te permet de :
 
 ## Installation
 
-1. Clone ce dépôt ou télécharge le script batch (`launcher.bat`)  
+1. Clone ce dépôt
 2. Modifie la variable `ROOT` dans le script pour pointer vers le dossier contenant tes projets Symfony, par exemple :  
    ```batch
    set "ROOT=C:\wamp64\www"
 3. Si besoin modifie le chemin vers Wamp
-4. Place le script dans un dossier accessible
+    ```batch
+   set "ROOT=C:\wamp64\wampmanager.exe"
+4. Place le script dans un dossier accessible (moi je l'ai mis dans C:\wamp64\www)
 5. Lance le script en double-cliquant dessus ou via une invite de commandes (**launch_symfony_project.bat**)
 
 ## Utilisation simplifiée
 
 1. Crée un raccourci sur ton bureau 
     - pointant vers **launch_symfony_project.bat**
-2. Fenetre agrandie:
+2. Fenetre agrandie pour une meilleure expérience:
     - clic droit sur le raccourci => propriétés => Raccourci => Exécuter: Agrandie
 
 ## Autre
