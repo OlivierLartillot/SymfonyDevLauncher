@@ -5,10 +5,10 @@ Un script batch simple et efficace pour lancer rapidement tes projets Symfony so
 Tous les jours quand je veux reprendre un projet Symfony:
 1. je me rends dans mon dossier de travail du projet
 2. je clic droit pour ouvrir une CMD et y taper code . pour ouvrir vsCode
-3. j'entre la commande (symfony server:start)
+3. j'entre la commande (symfony server:start) dans le terminal
 4. j'ouvre WampServer64
 5. j'ouvre mon google chrome et je clic sur mon raccourci Localhost:8000
-6. j'ouvre un nouvel onglet avec mon raccourci vers mes données (phpMyAdmin)
+6. j'ouvre un nouvel onglet avec mon raccourci vers ma bdd (phpMyAdmin)
 
 Bon j'avoue ce n'est pas bien long, mais qu'est ce que c'est chi*****. Mais ça, c'était avant !!!
 
@@ -44,7 +44,6 @@ Il te permet de :
     - Ouvrir Chrome avec les bons onglets:
         - localhost 
         - phpMyAdmin  
-    - Afficher des messages et emojis pour rendre l’expérience plus sympa
 
 ---
 
