@@ -90,9 +90,10 @@ start "Symfony server" cmd /k "symfony server:start"
 echo 🟢 Démarrage de WampServer...
 start "" "C:\wamp64\wampmanager.exe"
 
-echo 🌐 Ouverture de Chrome avec les deux onglets...
+echo 🌐 Ouverture de Chrome avec les trois onglets...
+echo 🌐 localhost:8000, phpmyadmin, chatgpt
 timeout /t 2 > nul
-start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" "https://localhost:8000/" "http://localhost/phpmyadmin/"
+start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" "https://localhost:8000/" "http://localhost/phpmyadmin/" "https://chatgpt.com/"
 :: edge: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
 
 

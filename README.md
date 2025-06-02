@@ -9,6 +9,7 @@ Tous les jours quand je veux reprendre un projet Symfony:
 4. j'ouvre WampServer64
 5. j'ouvre mon google chrome et je clic sur mon raccourci Localhost:8000
 6. j'ouvre un nouvel onglet avec mon raccourci vers ma bdd (phpMyAdmin)
+7. j'ouvre un nouvel onglet avec mon raccourci vers mon ami et assistant chatGpt
 
 Bon j'avoue ce n'est pas bien long, mais qu'est ce que c'est chi*****. Mais ça, c'était avant !!!
 
@@ -44,6 +45,7 @@ Il te permet de :
     - Ouvrir Chrome avec les bons onglets:
         - localhost 
         - phpMyAdmin  
+        - chatGpt
 
 ---
 
